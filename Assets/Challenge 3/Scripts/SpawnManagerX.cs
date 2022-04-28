@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpawnManagerX : MonoBehaviour {
   public GameObject[] objectPrefabs;
+  public GameObject[] obstacles;
   private float spawnDelay = 2;
   private float spawnInterval = 1.5f;
 

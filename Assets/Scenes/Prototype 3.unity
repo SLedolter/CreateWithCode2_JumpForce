@@ -239,6 +239,7 @@ MonoBehaviour:
   gravityModifier: 2
   isOnGround: 1
   gameOver: 0
+  doubleJump: 1
 --- !u!82 &117612649
 AudioSource:
   m_ObjectHideFlags: 0
@@ -537,7 +538,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a311459925fcf69459be47726dace503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePrefab: {fileID: 2783943878352769299, guid: 9f772b4bac688424b847989b97e55f57, type: 3}
+  obstaclePrefabs:
+  - {fileID: 1884074337756752357, guid: e5627511fd414bb4ea66926d5bc4df31, type: 3}
+  - {fileID: 8780424320546655309, guid: 8221a1e8f14ce61418475cd363636efa, type: 3}
+  - {fileID: 2783943878352769299, guid: 9f772b4bac688424b847989b97e55f57, type: 3}
+  - {fileID: 1990293589767515956, guid: 84029f8c128393846ad505c6ef1baca0, type: 3}
+  - {fileID: 515175755739571116, guid: 3c068706a929d41408ed229efd31a33b, type: 3}
+  - {fileID: 7283668312968719879, guid: 0b940012af7966349ba15e96b592c02e, type: 3}
+  - {fileID: 5924013827781158161, guid: f26b3abeeb16a1945861f0772cfd3ed7, type: 3}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,7 +624,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12, y: 4, z: -15}
+  m_LocalPosition: {x: 12, y: 4, z: -23.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

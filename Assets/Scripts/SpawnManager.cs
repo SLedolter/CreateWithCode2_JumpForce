@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnManager : MonoBehaviour {
-  public GameObject obstaclePrefab;
+  public GameObject[] obstaclePrefabs;
   private Vector3 spawnPosition = new Vector3(30, 0, 0);
   private PlayerController playerControllerScript;
 
@@ -23,7 +23,8 @@ public class SpawnManager : MonoBehaviour {
 
   void SpawnObstacle() {
     if(!playerControllerScript.gameOver) {
-      Instantiate(obstaclePrefab, spawnPosition, obstaclePrefab.transform.rotation);
+      int randomObstacleIndex = Random.Range(0, obstaclePrefabs.Length);
+      Instantiate(obstaclePrefabs[randomObstacleIndex], spawnPosition, obstaclePrefabs[randomObstacleIndex].transform.rotation);
     }
   }
 }
