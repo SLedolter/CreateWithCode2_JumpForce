@@ -539,10 +539,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstaclePrefabs:
-  - {fileID: 1884074337756752357, guid: e5627511fd414bb4ea66926d5bc4df31, type: 3}
+  - {fileID: 7536337771893884103, guid: e5627511fd414bb4ea66926d5bc4df31, type: 3}
+  - {fileID: 382620222465975573, guid: 5a785d0a18d04b64b9f6a01ff8128720, type: 3}
+  - {fileID: 1884074337756752357, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
   - {fileID: 8780424320546655309, guid: 8221a1e8f14ce61418475cd363636efa, type: 3}
   - {fileID: 2783943878352769299, guid: 9f772b4bac688424b847989b97e55f57, type: 3}
-  - {fileID: 1990293589767515956, guid: 84029f8c128393846ad505c6ef1baca0, type: 3}
+  - {fileID: 168381131318048435, guid: 1f8569e1e88f3a640a2a8c88df51b9f4, type: 3}
   - {fileID: 515175755739571116, guid: 3c068706a929d41408ed229efd31a33b, type: 3}
   - {fileID: 7283668312968719879, guid: 0b940012af7966349ba15e96b592c02e, type: 3}
   - {fileID: 5924013827781158161, guid: f26b3abeeb16a1945861f0772cfd3ed7, type: 3}
@@ -849,63 +851,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 112.79999, y: 18.781641, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1001 &998223144
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1884074337756752353, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1884074337756752353, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 1884074337756752353, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 1884074337756752353, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.20179272
-      objectReference: {fileID: 0}
-    - target: {fileID: 1884074337756752353, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1884074337756752353, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1884074337756752353, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1884074337756752353, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1884074337756752353, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1884074337756752353, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1884074337756752353, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1884074337756752357, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
-      propertyPath: m_Name
-      value: Obstacle_Barrel_01
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3799e8db6b1edb444a5ec00263376c19, type: 3}
 --- !u!198 &1222881145 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 1438565936, guid: fb82dfb8d1c7044c69afd2486befecb3, type: 3}
