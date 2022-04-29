@@ -3,19 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveLeft : MonoBehaviour {
-  public float speed = 30;
-  private PlayerController playerControllerScript;
+  private GameManager gameManagerScript;
   private float leftBound = -15;
 
   // Start is called before the first frame update
   void Start() {
-    playerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
+    gameManagerScript = GameObject.Find("GameManager").GetComponent<GameManager>();
   }
 
   // Update is called once per frame
   void Update() {
-    if(playerControllerScript.gameOver != true) {
-      transform.Translate(Vector3.left * Time.deltaTime * speed);
+    if(gameManagerScript.gameOver != true) {
+      transform.Translate(Vector3.left * Time.deltaTime * gameManagerScript.obstacleSpeed);
     }
 
     if(transform.position.x < leftBound && gameObject.CompareTag("Obstacle")) {

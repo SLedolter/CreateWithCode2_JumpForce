@@ -123,6 +123,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &49175481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 49175483}
+  - component: {fileID: 49175482}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &49175482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49175481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7eb7270ce63ce4ba2686649d99c39a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: 0
+--- !u!4 &49175483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49175481}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &62081763 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 9125212449759046732, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
@@ -238,7 +282,6 @@ MonoBehaviour:
   jumpForce: 700
   gravityModifier: 2
   isOnGround: 1
-  gameOver: 0
   doubleJump: 1
 --- !u!82 &117612649
 AudioSource:
@@ -547,7 +590,7 @@ MonoBehaviour:
   - {fileID: 168381131318048435, guid: 1f8569e1e88f3a640a2a8c88df51b9f4, type: 3}
   - {fileID: 515175755739571116, guid: 3c068706a929d41408ed229efd31a33b, type: 3}
   - {fileID: 7283668312968719879, guid: 0b940012af7966349ba15e96b592c02e, type: 3}
-  - {fileID: 5924013827781158161, guid: f26b3abeeb16a1945861f0772cfd3ed7, type: 3}
+  - {fileID: 4355050560269997182, guid: f26b3abeeb16a1945861f0772cfd3ed7, type: 3}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
