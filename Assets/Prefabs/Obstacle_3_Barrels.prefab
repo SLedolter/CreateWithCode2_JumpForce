@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7353288924715538206}
   - component: {fileID: 6931158480887950929}
   - component: {fileID: 6359797639169402224}
-  - component: {fileID: 3819944604341676599}
   - component: {fileID: 4550929866637308138}
   m_Layer: 0
   m_Name: Obstacle_3_Barrels
@@ -99,19 +98,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: bc0208005b6890d44994050c677eb13f, type: 3}
---- !u!114 &3819944604341676599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089607424447877941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0874a46da4483184f9cd10c24541620f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 30
 --- !u!54 &4550929866637308138
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -140,7 +126,6 @@ GameObject:
   - component: {fileID: 2417303081022406779}
   - component: {fileID: 623928066655703345}
   - component: {fileID: 2666006839884303460}
-  - component: {fileID: 5291700048580727917}
   - component: {fileID: 958587806815094953}
   m_Layer: 0
   m_Name: Obstacle_3_Barrels (1)
@@ -227,19 +212,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: bc0208005b6890d44994050c677eb13f, type: 3}
---- !u!114 &5291700048580727917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853125984602356766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0874a46da4483184f9cd10c24541620f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 30
 --- !u!54 &958587806815094953
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -268,7 +240,6 @@ GameObject:
   - component: {fileID: 8593093303231574223}
   - component: {fileID: 3001912130353380932}
   - component: {fileID: 8174425748580041601}
-  - component: {fileID: 7229619314359374502}
   - component: {fileID: 3395127926754935605}
   m_Layer: 0
   m_Name: Obstacle_3_Barrels (2)
@@ -355,19 +326,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: bc0208005b6890d44994050c677eb13f, type: 3}
---- !u!114 &7229619314359374502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3382234209684201029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0874a46da4483184f9cd10c24541620f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 30
 --- !u!54 &3395127926754935605
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -483,6 +441,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7675109683963119025}
+  - component: {fileID: 4099049724685723145}
   m_Layer: 0
   m_Name: Obstacle_3_Barrels
   m_TagString: Untagged
@@ -507,3 +466,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4099049724685723145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7536337771893884103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874a46da4483184f9cd10c24541620f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

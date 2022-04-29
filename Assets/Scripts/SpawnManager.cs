@@ -22,7 +22,7 @@ public class SpawnManager : MonoBehaviour {
   }
 
   void SpawnObstacle() {
-    if(!gameManagerScript.gameOver) {
+    if(!gameManagerScript.gameOver && gameManagerScript.startSpawning) {
       int randomObstacleIndex = Random.Range(0, obstaclePrefabs.Length);
       Instantiate(obstaclePrefabs[randomObstacleIndex], spawnPosition, obstaclePrefabs[randomObstacleIndex].transform.rotation);
     }

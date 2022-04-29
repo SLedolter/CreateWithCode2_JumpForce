@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4230673610395138151}
+  - component: {fileID: -926271518363011981}
   m_Layer: 0
   m_Name: Obstacle_SM_Rock_Boulder_01
   m_TagString: Untagged
@@ -31,6 +32,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-926271518363011981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4355050560269997182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874a46da4483184f9cd10c24541620f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8182580922590856725
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,7 +56,6 @@ GameObject:
   - component: {fileID: 8556248574395358290}
   - component: {fileID: 4647110420342778627}
   - component: {fileID: 6169294022857068375}
-  - component: {fileID: 1537713026527852611}
   - component: {fileID: 66145520205001981}
   m_Layer: 0
   m_Name: Obstacle_SM_Rock_Boulder_01
@@ -128,19 +140,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1.3325522
   m_Center: {x: 0, y: -0.000000059604645, z: 0}
---- !u!114 &1537713026527852611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8182580922590856725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0874a46da4483184f9cd10c24541620f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 30
 --- !u!54 &66145520205001981
 Rigidbody:
   m_ObjectHideFlags: 0

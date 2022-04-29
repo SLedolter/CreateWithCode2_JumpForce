@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1884074337756752358}
   - component: {fileID: 1884074337756752359}
   - component: {fileID: 1884074337756752356}
-  - component: {fileID: -4634072548372010963}
   - component: {fileID: 5048487128035437143}
+  - component: {fileID: 8110600279285264658}
   m_Layer: 0
   m_Name: Obstacle_Barrel_01
   m_TagString: Obstacle
@@ -98,19 +98,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: bc0208005b6890d44994050c677eb13f, type: 3}
---- !u!114 &-4634072548372010963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1884074337756752357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0874a46da4483184f9cd10c24541620f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 30
 --- !u!54 &5048487128035437143
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127,3 +114,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8110600279285264658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884074337756752357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0874a46da4483184f9cd10c24541620f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
